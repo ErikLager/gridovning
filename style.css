@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parrent{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 2rem;
+}
+.child{
+    background-color: pink;
+    margin: 1rem;
+}
+
+.colg{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.rowg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.colg20{
+    display: grid;
+    grid-template-columns: 20% auto ;
+}
+.rowg20{
+    display: grid;
+    grid-template-rows: 20%  auto;
+}
+.colg20aa{
+    display: grid;
+    grid-template-columns: 20% auto auto;
+}
+.rowg20aa{
+    display: grid;
+    grid-template-rows: 20% auto auto;
+}
